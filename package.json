@@ -1,7 +1,7 @@
 {
   "name": "meep_scanner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Integrate this action into your repository to start crowdsourcing feedback for your commits!",
   "main": "meep_scanner.js",
   "dependencies": {
     "@actions/core": "^1.2.4",
