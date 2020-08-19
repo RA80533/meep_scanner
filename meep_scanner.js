@@ -53,7 +53,7 @@ try {
     const dispatches = [];
 
     // Check if this is a public repo
-    const is_private = payload.repository.private
+    const is_private = payload.repository.private;
 
     for (let i = 0; i !== payload.commits.length; ++i) {
         const commit = payload.commits[i];
